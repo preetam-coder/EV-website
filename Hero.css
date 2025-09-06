@@ -1,0 +1,190 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 80px;
+  color: var(--white);
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+/* Explore Button */
+.explore-btn {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.explore-btn .circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: grid;
+  place-items: center;
+}
+
+.explore-btn img {
+  width: 18px;
+  transform: rotate(0deg);
+}
+
+/* Dots */
+.hero-dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.hero-dots li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--muted);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-dots li.active {
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 80px;
+  color: var(--white);
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+/* Explore Button */
+.explore-btn {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.explore-btn .circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accent);
+  display: grid;
+  place-items: center;
+}
+
+.explore-btn img {
+  width: 18px;
+  transform: rotate(0deg);
+}
+
+/* Dots */
+.hero-dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.hero-dots li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--muted);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-dots li.active {
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+}
+
+/* Video Button */
+.video-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.video-btn span {
+  font-size: 16px;
+  color: var(--white);
+}
+
+.play-circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Play / Pause icons */
+.play-icon {
+  width: 0;
+  height: 0;
+  border-left: 12px solid var(--white);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+.pause-icon {
+  display: flex;
+  gap: 4px;
+}
+
+.pause-icon::before,
+.pause-icon::after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 16px;
+  background: var(--white);
+}

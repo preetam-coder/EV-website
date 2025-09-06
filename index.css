@@ -1,0 +1,31 @@
+:root {
+  --white: #ffffff;
+  --muted: #c9c9c9;
+  --accent: #ff6600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
