@@ -1,12 +1,26 @@
-# React + Vite
+🚗 EV Website – React Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first React project, built with React + Vite.
+The project is a dynamic EV landing page designed to showcase interactive features, smooth transitions, and a modern user interface.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎬 Dynamic Backgrounds – Switch seamlessly between images and video.
 
-## Expanding the ESLint configuration
+⏯️ Play / Pause Video – Interactive control to toggle the background video.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⏩ Auto Hero Slider – Hero content changes automatically every 3 seconds.
+
+🧭 Responsive Navbar – Fixed header with glowing hover hover effect.
+
+🔘 Navigation Dots & Arrows – Easily switch between slides.
+
+📱 Fully Responsive Design – Optimized for desktop and mobile.
+
+🛠️ Tech Stack
+
+React JS – Component-based UI library
+
+Vite – Fast build and dev tool
+
+CSS3 – Custom styling with animations and transitions
